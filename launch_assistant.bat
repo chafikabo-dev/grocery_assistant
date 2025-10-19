@@ -1,0 +1,6 @@
+@echo off
+echo 🔄 Launching Flask backend...
+start cmd /k "cd /d %~dp0 && python app.py"
+timeout /t 3 >nul
+echo ✅ Launching assistant...
+python assistant.py

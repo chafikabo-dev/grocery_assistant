@@ -1,0 +1,7 @@
+{
+  "alon milk": ["almond milk", "oat milk", "soy milk"],
+  "eg": ["eggs", "organic eggs", "free-range eggs"],
+  "milke": ["milk", "almond milk", "oat milk"],
+  "bread": ["whole wheat bread", "white bread", "gluten-free bread"],
+  "cereal": ["corn flakes", "granola", "oatmeal"]
+}

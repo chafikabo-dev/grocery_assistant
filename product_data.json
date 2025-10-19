@@ -1,0 +1,19 @@
+{
+  "Ottawa": {
+    "milk": [
+      { "store": "Walmart", "price": 2.28 },
+      { "store": "Metro", "price": 2.49 },
+      { "store": "Farm Boy", "price": 2.59 }
+    ],
+    "white beans": [
+      { "store": "No Frills", "price": 1.99 },
+      { "store": "Sobeys", "price": 2.29 }
+    ]
+  },
+  "Toronto": {
+    "milk": [
+      { "store": "Walmart", "price": 2.35 },
+      { "store": "Longo's", "price": 2.65 }
+    ]
+  }
+}

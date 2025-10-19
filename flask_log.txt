@@ -1,0 +1,54 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+...
+2025-10-15 16:58:59 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 16:58:59 INFO: [33mPress CTRL+C to quit[0m
+2025-10-15 16:58:59 INFO:  * Restarting with stat
+2025-10-15 16:59:00 INFO: Starting Flask server...
+2025-10-15 16:59:00 WARNING:  * Debugger is active!
+2025-10-15 16:59:00 INFO:  * Debugger PIN: 129-187-624
+2025-10-15 16:59:01 INFO: Healthcheck endpoint was called.
+2025-10-15 16:59:01 INFO: 127.0.0.1 - - [15/Oct/2025 16:59:01] "GET /healthcheck HTTP/1.1" 200 -
+2025-10-15 16:59:23 ERROR: Walmart error: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-10-15 16:59:24 ERROR: Metro error: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-10-15 16:59:44 ERROR: No Frills error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+2025-10-15 17:00:09 ERROR: Loblaws error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+2025-10-15 17:00:09 INFO: Returning 0 results for item 'eggs' in city 'Ottawa?'
+2025-10-15 17:00:09 INFO: 127.0.0.1 - - [15/Oct/2025 17:00:09] "GET /price?city=Ottawa?&item=eggs HTTP/1.1" 200 -
+2025-10-15 17:00:39 INFO:  * Detected change in 'C:\\Users\\kamel\\Desktop\\grocery_assistant\\assistant.py', reloading
+2025-10-15 17:00:44 INFO:  * Restarting with stat
+2025-10-15 17:00:45 INFO: Starting Flask server...
+2025-10-15 17:00:45 WARNING:  * Debugger is active!
+2025-10-15 17:00:45 INFO:  * Debugger PIN: 129-187-624
+2025-10-15 17:01:00 INFO:  * Detected change in 'C:\\Users\\kamel\\Desktop\\grocery_assistant\\app.py', reloading
+2025-10-15 17:01:00 INFO:  * Restarting with stat
+2025-10-15 17:01:01 INFO: Starting Flask server...
+2025-10-15 17:01:01 WARNING:  * Debugger is active!
+2025-10-15 17:01:01 INFO:  * Debugger PIN: 129-187-624
+2025-10-15 17:01:20 INFO: Healthcheck endpoint was called.
+2025-10-15 17:01:20 INFO: 127.0.0.1 - - [15/Oct/2025 17:01:20] "GET /healthcheck HTTP/1.1" 200 -
+2025-10-15 17:01:33 ERROR: Walmart error: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-10-15 17:01:34 ERROR: Metro error: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+2025-10-15 17:01:55 ERROR: No Frills error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+2025-10-15 17:02:25 ERROR: Loblaws error: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+2025-10-15 17:02:25 INFO: Returning 0 results for item 'eggs' in city 'Ottawa?'
+2025-10-15 17:02:25 INFO: 127.0.0.1 - - [15/Oct/2025 17:02:25] "GET /price?city=Ottawa?&item=eggs HTTP/1.1" 200 -
+2025-10-15 18:04:03 INFO: Starting Flask server...
+2025-10-15 18:04:03 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-15 18:04:03 INFO: [33mPress CTRL+C to quit[0m
+2025-10-15 18:04:03 INFO:  * Restarting with stat
+2025-10-15 18:04:03 INFO: Starting Flask server...
+2025-10-15 18:04:03 WARNING:  * Debugger is active!
+2025-10-15 18:04:03 INFO:  * Debugger PIN: 129-187-624
+2025-10-15 18:06:12 INFO:  * Detected change in 'C:\\Users\\kamel\\Desktop\\grocery_assistant\\app.py', reloading
+2025-10-15 18:06:12 INFO:  * Restarting with stat
+2025-10-15 18:06:13 INFO: Starting Flask server...
+2025-10-15 18:06:13 WARNING:  * Debugger is active!
+2025-10-15 18:06:13 INFO:  * Debugger PIN: 129-187-624
+2025-10-15 18:10:32 INFO:  * Detected change in 'C:\\Users\\kamel\\Desktop\\grocery_assistant\\app.py', reloading
+2025-10-15 18:10:32 INFO:  * Restarting with stat
+2025-10-15 18:10:33 INFO: Starting Flask server...
+2025-10-15 18:10:33 WARNING:  * Debugger is active!
+2025-10-15 18:10:33 INFO:  * Debugger PIN: 129-187-624
