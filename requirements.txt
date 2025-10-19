@@ -1,5 +1,10 @@
-flask
-requests
-beautifulsoup4
-pytesseract
-opencv-python
+flask==2.3.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+pytesseract==0.3.10
+opencv-python==4.8.1.78
+gunicorn==21.2.0
+python-dotenv==1.0.0
+fuzzywuzzy==0.18.0
+unidecode==1.3.7
+langdetect==1.0.9
