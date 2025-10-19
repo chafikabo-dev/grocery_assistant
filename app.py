@@ -62,6 +62,7 @@ def get_price():
 @app.route('/healthcheck')
 def healthcheck():
     return "OK", 200
+application = app
 
 if __name__ == '__main__':
     logging.info("Starting Flask server...")
