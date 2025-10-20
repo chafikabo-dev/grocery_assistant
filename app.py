@@ -6,12 +6,7 @@ from walmart_scraper import scrape_walmart
 from metro_scraper import scrape_metro
 from loblaws_scraper import scrape_loblaws
 
-# Try importing No Frills scraper with fallback
-try:
-    from nofrills_scraper import scrape_nofrills
-except ImportError as e:
-    logging.error(f"Failed to import No Frills scraper: {e}")
-    scrape_nofrills = lambda item: []
+
 
 app = Flask(__name__)
 application = app  # Expose for Gunicorn
