@@ -1,19 +1,30 @@
 {
   "Ottawa": {
-    "milk": [
-      { "store": "Walmart", "price": 2.28 },
-      { "store": "Metro", "price": 2.49 },
-      { "store": "Farm Boy", "price": 2.59 }
+    "almond milk": [
+      { "store": "Walmart", "price": 3.99, "name": "Great Value Almond Milk" },
+      { "store": "Metro", "price": 4.29, "name": "Silk Almond Milk" }
     ],
-    "white beans": [
-      { "store": "No Frills", "price": 1.99 },
-      { "store": "Sobeys", "price": 2.29 }
+    "eggs": [
+      { "store": "Metro", "price": 4.49, "name": "Organic Eggs" },
+      { "store": "Walmart", "price": 4.19, "name": "Free-Range Eggs" }
     ]
   },
   "Toronto": {
-    "milk": [
-      { "store": "Walmart", "price": 2.35 },
-      { "store": "Longo's", "price": 2.65 }
+    "almond milk": [
+      { "store": "Walmart", "price": 3.89, "name": "Almond Breeze" },
+      { "store": "Metro", "price": 4.39, "name": "Earth's Own Almond Milk" }
+    ],
+    "eggs": [
+      { "store": "Metro", "price": 4.59, "name": "Omega-3 Eggs" },
+      { "store": "Walmart", "price": 4.29, "name": "Farm Fresh Eggs" }
+    ]
+  },
+  "Montreal": {
+    "almond milk": [
+      { "store": "Metro", "price": 4.49, "name": "Silk Almond Milk" }
+    ],
+    "eggs": [
+      { "store": "Metro", "price": 4.79, "name": "Organic Eggs" }
     ]
   }
 }

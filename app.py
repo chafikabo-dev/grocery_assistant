@@ -1,3 +1,9 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("✅ Flask app loaded successfully")
+
+
+
 from flask import Flask
 
 app = Flask(__name__)

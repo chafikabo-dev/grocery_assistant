@@ -1,3 +1,5 @@
+
+RUN echo "✅ Dockerfile built successfully"
 # Use an official Python base image
 FROM python:3.10-slim
 
