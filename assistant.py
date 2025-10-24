@@ -68,3 +68,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"Parsed item: {item_name}")
+print(f"Parsed location: {location}")
+print(f"Available items: {list_of_items}")
+print(f"Available locations: {list_of_locations}")
