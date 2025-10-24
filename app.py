@@ -1,10 +1,9 @@
 import logging
+from flask import Flask
+
+# Setup logging to confirm app load
 logging.basicConfig(level=logging.INFO)
 logging.info("✅ Flask app loaded successfully")
-
-
-
-from flask import Flask
 
 app = Flask(__name__)
 application = app  # Required for Gunicorn
