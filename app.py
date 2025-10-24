@@ -1,7 +1,10 @@
 import logging
+import time
 from flask import Flask
 
-# Log startup to confirm container is alive
+# Delay to give Gunicorn time to boot before healthcheck
+time.sleep(2)
+
 logging.basicConfig(level=logging.INFO)
 logging.info("✅ Flask app loaded successfully")
 
@@ -14,4 +17,4 @@ def home():
 
 @app.route("/healthcheck")
 def healthcheck():
-    return "OK", 200
+    return "", 200
