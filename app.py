@@ -1,9 +1,5 @@
 import logging
-import time
 from flask import Flask
-
-# Delay to give Gunicorn time to boot before healthcheck
-time.sleep(2)
 
 logging.basicConfig(level=logging.INFO)
 logging.info("✅ Flask app loaded successfully")
