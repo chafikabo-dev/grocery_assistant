@@ -1,7 +1,7 @@
 import logging
 from flask import Flask
 
-# Setup logging to confirm app load
+# Log startup to confirm container is alive
 logging.basicConfig(level=logging.INFO)
 logging.info("✅ Flask app loaded successfully")
 
